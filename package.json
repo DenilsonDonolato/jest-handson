@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^26.4.0"
+  },
+  "scripts": {
+    "teste": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
+  }
+}
